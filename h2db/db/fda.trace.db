@@ -1,0 +1,12 @@
+2018-10-07 23:30:03 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM BAR 
+INSERT INTO[*] BAR (ID, BAR)
+VALUES (1, ""bar"") "; SQL statement:
+SELECT * FROM BAR 
+INSERT INTO bar (ID, BAR)
+VALUES (1, "bar") [42000-194]
+2018-10-07 23:30:20 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM BAR 
+INSERT INTO[*] BAR (ID, BAR) VALUES (1, 'bar') "; SQL statement:
+SELECT * FROM BAR 
+INSERT INTO bar (ID, BAR) VALUES (1, 'bar') [42000-194]
